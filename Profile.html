@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)file:///C:/Users/BONOLO/Desktop/portfolio/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./Profile_files/css">
+    <link rel="stylesheet" href="./Profile_files/all.min.css">
+    <link rel="stylesheet" href="./Profile_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./Profile_files/templatemo-style.css">
+
+    <title>Profile</title>
+    
+<!--
+Mini Profile Template
+https://templatemo.com/tm-530-mini-profile
+-->
+            <style>
+      html {
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #6b6b6b;
+  overflow-x: hidden;
+}
+ a,
+button {
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  text-decoration: none;
+}
+                
+.container-fluid {
+  max-width: 1200px;
+}
+    .tm-bg-black-transparent {
+  background-color: rgba(0, 0, 0, 0.5);
+}            
+    .tm-bg-white-transparent {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.tm-bg-green {
+  background-color: #98cb00;
+}
+
+.tm-bg-orange {
+  background-color: #cc6733;
+}
+
+.tm-bg-blue {
+  background-color: #3398cc;
+}
+
+.tm-bg-dark-gray {
+  background-color: #676767;
+}
+/*
+  Welcome section
+*/
+#tmWelcome {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.tm-brand-container-outer {
+  margin-top: -400px;
+}
+
+.tm-brand-container-inner {
+  max-width: 580px;
+  width: 100%;
+}
+
+.tm-brand-container {
+  padding: 75px 110px;
+}
+.tm-brand-name {
+  font-size: 3.5rem;
+    text-align: center;
+}
+
+.tm-brand-description {
+  font-size: 1.4rem;
+}
+
+.parallax-window {
+  min-height: 1100px;
+  background: transparent;
+}
+
+#tmContact {
+  min-height: 1197px;
+}
+
+.tm-welcome-container {
+  min-height: 400px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+}
+
+.tm-welcome-title {
+  margin-bottom: 40px;
+}
+
+.tm-welcome-left {
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.tm-welcome-left-col {
+  display: flex;
+  align-items: center;
+}
+
+.tm-welcome-right {
+  color: white;
+  background-color: #986665;
+  padding: 80px 43px 70px;
+  height: 100%;
+}
+
+.tm-welcome-icon {
+  margin-bottom: 50px;
+  display: block;
+  text-align: center;
+}
+
+/*
+  Portfolio section
+*/
+                #tmPortfolio {
+  padding-top: 80px;
+}
+
+.tm-portfolio-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.tm-portfolio-name {
+  width: 330px;
+  height: 220px;
+  font-size: 2rem;
+  padding: 70px 95px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.tm-portfolio-description {
+  width: calc(100% - 330px);
+  padding: 20px 45px;
+}
+
+.tm-portfolio-description h3 {
+  margin-bottom: 20px;
+}
+
+.tm-text-green {
+  color: #98cb00;
+}
+
+.tm-text-orange {
+  color: #cc6733;
+}
+
+.tm-text-blue {
+  color: #3398cc;
+}
+
+.tm-text-dark-gray {
+  color: #676767;
+}
+
+.tm-title-small {
+  font-size: 1.3rem;
+}
+
+p {
+  line-height: 1.8;
+}
+
+/*
+  Contact section
+*/
+                
+#tmContact {
+  padding-top: 95px;
+    background-image:url('bonolo2.jpg');
+		background-size:cover;
+		background-attachment:scroll;
+}
+
+.tm-contact-item {
+  width: 33.3334%;
+  max-width: 345px;
+  height: auto;
+  min-height: 420px;
+  margin-right: 35px;
+  background-color: white;
+  padding: 54px 34px 44px;
+}
+
+.tm-contact-item:last-child {
+  margin-right: 0;
+}
+
+.tm-contact-items-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 130px;
+}
+
+.tm-contact-item-icon {
+  margin-bottom: 45px;
+  width: 100%;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#tmContactForm {
+  width: 100%;
+  max-width: 680px;
+  padding: 45px 45px 30px;
+  margin-bottom: 95px;
+}
+
+.form-group {
+  max-width: 355px;
+}
+
+.form-control {
+  background: transparent;
+  border-color: #999999;
+  padding: 15px 10px;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.tm-btn-submit {
+  background-color: #999999;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+}
+
+.tm-btn-submit:focus,
+.tm-btn-submit:hover {
+  background-color: #676767;
+}
+
+.tm-copyright-text {
+  margin-bottom: 30px;
+}
+
+.tm-link {
+  color: #676767;
+}
+
+@media (max-width: 1054px) {
+  .tm-contact-item-icon {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .tm-contact-items-container {
+    flex-direction: column;
+  }
+
+  .tm-contact-item {
+    width: auto;
+    max-width: 680px;
+    min-height: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  .tm-contact-item:last-child {
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+
+  #tmContactForm {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 730px) {
+  .tm-portfolio-item {
+    flex-direction: column;
+  }
+
+  .tm-portfolio-name {
+    justify-content: center;
+  }
+
+  .tm-portfolio-name,
+  .tm-portfolio-description {
+    width: 100%;
+  }
+
+  .tm-portfolio-description {
+    padding: 20px 30px;
+  }
+}
+
+@media (max-width: 572px) {
+  .tm-brand-container {
+    padding: 45px;
+  }
+}
+
+@media (max-width: 443px) {
+  .tm-brand-name {
+    font-size: 3rem;
+  }
+
+  .tm-brand-container {
+    padding: 25px;
+  }
+}
+
+
+      </style>
+      
+  </head>
+     <body><div class="parallax-mirror" style="visibility: hidden; z-index: -100; position: fixed; top: 0px; left: 0px; overflow: hidden; height: 1360.78px; width: 1349px; transform: translate3d(0px, -703px, 0px);"><img class="parallax-slider" src="./Profile_files/mini-profile-bg-02.jpg" style="position: absolute; height: 897px; width: 1349px; max-width: none; transform: translate3d(0px, 512.4px, 0px);"></div><div class="parallax-mirror" style="visibility: visible; z-index: -100; position: fixed; top: 0px; left: 0px; overflow: hidden; transform: translate3d(0px, 0px, 0px); height: 1100px; width: 1349px;"><img class="parallax-slider" src="./Profile_files/bonolo2.jpg" style="transform: translate3d(0px, -336px, 0px); position: absolute; height: 1372px; width: 1349px; max-width: none;"></div>
+    <!-- Welcome Section -->
+    <section id="tmWelcome" class="parallax-window" data-parallax="scroll" data-image-src="img/bonolo2.jpg">
+      <div class="container-fluid tm-brand-container-outer" style="margin-top: -400px;">
+        <div class="row">
+          <div class="col-12">
+            <!-- Logo Area -->
+            <!-- Black transparent bg -->
+            <div class="ml-auto mr-0 tm-bg-black-transparent text-white tm-brand-container-inner">
+              <div class="tm-brand-container text-center">
+                <h1 class="tm-brand-name">PHIRIFIRI</h1>
+                <p class="tm-brand-description mb-0">That boy hotter than Cayenne.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tm-bg-white-transparent tm-welcome-container">
+        <div class="container-fluid">
+          <div class="row h-100">
+            <!-- Welcome Text -->
+            <!-- White transparent bg -->
+            <div class="col-md-7 tm-welcome-left-col">
+              <div class="tm-welcome-left">
+                <h2 class="tm-welcome-title">Welcome to Mini Profile Page</h2>
+                <p class="pb-0">
+                     Hello and welcome. My name is PHIRIFIRI and in this section I wanted to give you a little info on myself.
+                  
+                  </p>
+              </div>
+            </div>
+            <!-- Brown bg -->
+            <div class="col-md-5">
+              <div class="tm-welcome-right">
+                <i class="fas fa-4x fa-address-card p-3 tm-welcome-icon"></i>
+                <p class="mb-0">
+               Hope you have a lovely stay while your viewing my content, and please do let me know what you think... 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Welcome section -->
+         <!-- Portfolio section -->
+    <section id="tmPortfolio">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="tm-portfolio-item">
+              <div class="tm-portfolio-name text-white tm-bg-green">
+                The Man Behind The Project
+              </div>
+              <div class="tm-portfolio-description">
+                <h3 class="tm-text-green">
+                  About Me.
+                  <span class="tm-title-small">(2018 February to Present).</span>
+                </h3>
+                <p class="mb-0">
+                  I'm a bit of a computer wiz they say, I've been a software engineer &amp; web designer for 3 years,studied with few two institutions now and have learned one or two languages in programming from them and even today i still learn.
+
+I hope you enjoy browsing my page and maybe you can learn few things from mine.I'm a beginner,i am now learning with University Of Zambia under NIIT Technologies and busy working on improving my work when time goes
+                    
+                </p>
+              </div>
+            </div>
+
+            <div class="tm-portfolio-item">
+              <div class="tm-portfolio-name text-white tm-bg-orange">
+                Hometown.
+              </div>
+              <div class="tm-portfolio-description">
+                <h3 class="tm-text-orange">
+                  Rustenburg.014
+                  <span class="tm-title-small">(2017 April to 2018 Dec).</span>
+                </h3>
+                <p class="mb-0">
+                 I was born in Rustenburg,one of the oldest towns in the province is well established with many fine holiday resorts. The temperature is a good four or five degrees warmer than Gauteng.
+
+It is a malaria-free and relatively crime-free area and is only a ninety minute drive from both Johannesburg and Pretoria. No wonder this region is a favourite getaway for Gauteng residents! Given the natural bushveld vegetation that covers the entire area and with the added attraction of the Magliesberg mountain range, this region has much to offer the ecotourists.
+
+It is a national game area with a number of fine game parks where it is still possible to capture the solitude and stillness associated with nature and the animal kingdom.Game viewing, overnight camps, walking trails and hunting trips are are all available. The Rustenburg Nature reserve offers hiking trails in the Magaliesberg with its abundant bird life and fauna and flora. The Rustenburg area is also home to the famous Sun City Resort with its Lost City Palace Hotel. It is a dazzling experience in every way.
+                </p>
+              </div>
+            </div>
+
+            <div class="tm-portfolio-item">
+              <div class="tm-portfolio-name text-white tm-bg-blue">
+                Flex Community.
+              </div>
+              <div class="tm-portfolio-description">
+                <h3 class="tm-text-blue">
+                  Wooski.
+                  <span class="tm-title-small">(Started from 2014).</span>
+                </h3>
+                <p class="mb-0">
+                 A lot can be told about me.<br>
+                    I'm a hard worker,multitasker and like to work under pressure and i like to communicate.<br>
+                    Apart from work ethics.I don't claim to be handsome and i don't seek permission from anyone to tell me about that.<br>
+                    I'm regarded as one of the best dresser in my community,brands aside,i still get mans catch feelings when i express myself and women to run around even though they say i'm too arrogant.<br>
+                    What's nice more about me is that am a dancer,since i was dancing at a very young age with and not saying i'm the best but my simple moves can kill you.<br>
+                    I do love God and fear him.<br>
+                    I'm plug,agent and an innovator<br>
+                    IG: W O O S K I.
+                    
+                </p>
+              </div>
+            </div>
+
+            <div class="tm-portfolio-item">
+              <div class="tm-portfolio-name text-white tm-bg-dark-gray">
+                Education.
+              </div>
+              <div class="tm-portfolio-description">
+                <h3 class="tm-text-dark-gray">
+                  History Of Education.
+                  <span class="tm-title-small">
+                    (2014 May to 2021).
+                  </span>
+                </h3>
+                <p class="mb-0">
+                 I have started my high school in rustenburg in a well known institution called President Mangope Tech,i was learning commercial subjects based on Accounting,Economics,Business Studies,Maths Lit and Computer Application Tech.
+                <br>
+                    The beginning of 2018 i went to Rosebank College and choose a path of Software Engineering and only studied for a year and dropped out due to family issues.
+                    <br>
+                    2019 till now i continued with the programe of computers in University of Zambia and looking for to learn more
+                    <br>
+                    The aim is not draft bunch of Curriculum vitaes but to be self employees.Anyways the goal has started.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End portfolio section -->
+
+    <!-- Contact section -->
+    <div id="tmContact" class="parallax-window" data-parallax="scroll" data-image-src="img/mini-profile-bg-02.jpg">&gt; 
+         
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="tm-contact-items-container">
+              <div class="tm-contact-item">
+                <i class="fas fa-5x fa-briefcase tm-contact-item-icon"></i>
+                <p class="mb-0">
+                  You can reach me through the following communication:
+                    Email:bonolophiri100@gmail.com
+                    Phone:096 062 8189
+                </p>
+              </div>
+              <div class="tm-contact-item">
+                <i class="fas fa-5x fa-building tm-contact-item-icon"></i>
+                <p class="mb-0">
+                  Social media platforms:<br>
+                    Instagram: el.phirifiri.<br>
+                    Facebook: Bonolo PhiriFiri.<br>
+                    Whatsapp: 096 062 8189.
+                </p>
+              </div>
+
+              <div class="tm-contact-item">
+                <i class="fas fa-5x fa-balance-scale tm-contact-item-icon"></i>
+                <p class="mb-0">
+                     You can absolutely feel free to use Mini Profile for your web page or any usage for your website.<br>
+                  You are NOT allowed to re-distribute this template in any download website. Else, it is illegal action.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <form action="file:///C:/Users/BONOLO/Desktop/portfolio/index.html" method="POST" id="tmContactForm" class="tm-bg-white-transparent">
+              <div class="form-group">
+                <input type="text" id="contact_name" name="contact_name" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Name" required="">
+              </div>
+              <div class="form-group">
+                <input type="email" id="contact_email" name="contact_email" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Email" required="">
+              </div>
+              <div class="form-group">
+                <textarea rows="4" id="contact_message" name="contact_message" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Message" required=""></textarea>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn tm-btn-submit rounded-0 text-white">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- row -->
+        <div class="row">
+          <footer class="col-12">
+            <p class="text-center tm-copyright-text">
+            Copyright 2021 Mini Profile Page.
+            
+            - Design: P H I R I F I R I.</p>
+          </footer>
+        </div>
+      </div>
+      <!-- container -->
+    
+    <!-- section -->
+    
+    <script src="./Profile_files/jquery.min.js.download"></script>
+    <script src="./Profile_files/parallax.min.js.download"></script>
+    <script>
+      function detectMsBrowser() {
+        using_ms_browser =
+          navigator.appName == "Microsoft Internet Explorer" ||
+          (navigator.appName == "Netscape" &&
+            navigator.appVersion.indexOf("Edge") > -1) ||
+          (navigator.appName == "Netscape" &&
+            navigator.appVersion.indexOf("Trident") > -1);
+
+        if (using_ms_browser == true) {
+          alert(
+            "Please use Chrome or Firefox for the best browsing experience!"
+          );
+        }
+      }
+      function setBrandMarginTop() {
+        var bottomContainerHeight = $(".tm-welcome-container").height();
+
+        $(".tm-brand-container-outer").css({
+          "margin-top": -bottomContainerHeight + "px"
+        });
+      }
+
+      $(function() {
+        setBrandMarginTop();
+        detectMsBrowser();
+
+        // Handle window resize event
+        $(window).resize(function() {
+          setBrandMarginTop();
+        });
+      });
+    </script>
+  
+
+</div></body></html>
